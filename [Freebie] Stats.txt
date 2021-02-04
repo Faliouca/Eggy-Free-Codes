@@ -5,7 +5,7 @@
          <div class="card pt-3 px-4 pb-md-0 pb-3 d-block h-100 rounded-0" style="font-size: 10.5pt;">
             <h1 class="text-center display-4 text-uppercase mb-2">Name</h1>
             <!---------------------- USE A 200 x 200 AVATAR ------------------------------------------------->
-            <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" style="max-height: 200px;" 
+            <img src="IMG URL" style="max-height: 200px;" 
             class="d-block mx-auto mb-2 rounded-circle img-thumbnail">
  
             <!---------------- CHARACTER STATS --- CHANGE % to CHANGE FULLNESS ------------------------------>
@@ -341,7 +341,7 @@
                <hr>
                <div style="font-size: .96em;">
 			          <!------------- OPTIONAL FOCAL IMAGE --------------->
-                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/18181815_7i5kXnjNjF3JOSY.png" 
+                <img src="IMG URL" 
                 class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 400px;">
  
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare interdum massa, dignissim commodo ipsum dapibus et. Nullam venenatis nunc a tortor consequat, sed efficitur risus bibendum. Integer rhoncus cursus interdum. Duis tincidunt urna at elit mattis condimentum. Vivamus nec interdum tortor, eget fermentum diam. Nunc aliquam pulvinar quam vitae ullamcorper. Aliquam eu arcu at justo rutrum accumsan. Nullam eget felis sit amet eros convallis tincidunt dapibus non orci. Duis quis velit venenatis odio malesuada gravida non nec tellus. Nulla eget turpis quis nulla suscipit malesuada.</p>
@@ -364,7 +364,7 @@
                <div class="row">
                  <!---------------------- CHARACTER ROW ------------------------------------------>
                   <div class="col-12 mb-2">
-                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" 
+                     <img src="IMG URL" 
                      class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 150px;">
  
                      <h2><a href="CHARACTER_LINK">Name</a></h2>
@@ -381,7 +381,7 @@
  
                   <!---------------------- CHARACTER ROW ------------------------------------------>
                   <div class="col-12 mb-2">
-                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" 
+                     <img src="IMG URL" 
                      class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 150px;">
  
                      <h2><a href="CHARACTER_LINK">Name</a></h2>
@@ -396,7 +396,7 @@
  
 				  <!---------------------- CHARACTER ROW ------------------------------------------>
                   <div class="col-12 mb-2">
-                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" 
+                     <img src="IMG URL" 
                      class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 150px;">
  
                      <h2><a href="CHARACTER_LINK">Name</a></h2>
