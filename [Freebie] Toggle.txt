@@ -8,7 +8,7 @@
                <h1 class="text-center mb-0" style="font-weight: 300;">Name</h1>
             </li>
             <!---------------- FOCAL IMAGE -- WILL SCALE ACROSS SCREEN SIZES ---------->
-            <li style="background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/24245650_0RI.png); background-size:cover;background-position:center 0;background-repeat:no-repeat;min-height:300px;" class="list-group-item d-block" >
+            <li style="background-image:url(IMG URL); background-size:cover;background-position:center 0;background-repeat:no-repeat;min-height:300px;" class="list-group-item d-block" >
             </li>
             <li class="list-group-item d-block">
                <span class="text-uppercase text-muted" style="letter-spacing:1px;">age</span> 
@@ -48,7 +48,7 @@
                <div class="tab-pane active show card-block pb-1" style="height: 530px; overflow:auto;" id="ONE">
                  <h4 class="text-center text-uppercase mb-4" style="font-weight:300; letter-spacing:1px;">
                           Adjective • Adjective • Adjective</h4>
-                  <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/26808720_IkdCa4IQmfLwLKA.png?1601056408" style="max-height:400px; max-width: 250px;" 
+                  <img src="IMG URL" 
                   class="rounded float-lg-right ml-lg-2 d-block mx-auto mb-2 hidden-sm-down">
                   <p>Use this box to write your character description. This box will scroll when filled with content.</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin. In feugiat posuere nulla, eget lobortis ante. Aliquam magna libero, dictum sit amet scelerisque ac, scelerisque tincidunt magna. Nulla et consectetur diam. Aliquam ipsum mi, tristique sed vestibulum ac, aliquet eget magna. Aliquam quis fringilla erat. Morbi sollicitudin id lorem eu efficitur. Mauris varius id magna vitae ullamcorper. In gravida libero consectetur, lobortis nisl sit amet, pellentesque ligula. Suspendisse tincidunt feugiat posuere. Duis dui erat, accumsan a aliquam eu, efficitur a tortor. Nunc molestie, leo in commodo aliquam, tellus augue tempor velit, non placerat ex sem non nisi.</p>
