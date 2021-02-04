@@ -305,7 +305,7 @@
                         <div class="row px-1">
                             <!--------------------------- CHARACTER LINK -------------------------------------->
                             <div class="col-12 mb-2">
-                                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/23471735_uVZLl4qpjPREyqr.png" 
+                                <img src="IMG URL" 
                                 style="max-height:100px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
  
                                 <p class="my-1" style="letter-spacing:1px; font-size: 14pt; font-weight:300;">
@@ -319,7 +319,7 @@
  
                             <!--------------------------- CHARACTER LINK -------------------------------------->
                             <div class="col-12 mb-2">
-                                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/23471735_uVZLl4qpjPREyqr.png" 
+                                <img src="IMG URL" 
                                 style="max-height:100px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
  
                                 <p class="my-1" style="letter-spacing:1px; font-size: 14pt; font-weight:300;">
@@ -333,7 +333,7 @@
  
                             <!--------------------------- CHARACTER LINK -------------------------------------->
                             <div class="col-12 mb-2">
-                                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/23471735_uVZLl4qpjPREyqr.png" 
+                                <img src="IMG URL" 
                                 style="max-height:100px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
  
                                 <p class="my-1" style="letter-spacing:1px; font-size: 14pt; font-weight:300;">
