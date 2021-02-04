@@ -1,0 +1,179 @@
+<!--------------------------
+--
+-- Default custom accent color is #cc828a
+-- use find & replace in a word processor to quickly change all hex codes
+--
+--------------------------->
+ 
+<div class="container px-0">
+    <div class="row no-gutters mb-2">
+ 
+        <div class="col-lg-4 col-md-5 pr-md-2 mb-md-0 mb-2">
+            <!-------- FOCAL IMAGE -- WILL SCALE & CROP WITH SCREEN -- FOCUS IN TOP CENTER ------------------>
+            <div style="background-image:url(IMG URL); 
+            background-size: cover; repeat:no-repeat; background-position: top center; min-height: 400px;" class="rounded card-block bg-faded h-100"></div>
+        </div>
+ 
+        <div class="col-lg-8 col-md-7">
+            <ul class="nav nav-pills row no-gutters text-center text-uppercase" style="letter-spacing: 1px;">
+                <!----------------- NAVIGATION BUTTONS ----- YOU CAN CHANGE THE TEXT ---- DO NOT ADD MORE ------------------------------------->
+                <li class="nav-item col mr-1 mb-2"><a class="btn btn-default border-0 nav-link active" data-toggle="tab" href="#ONE">
+                  Intro</a></li>
+ 
+                <li class="nav-item col mx-1 mb-2"><a class="btn btn-default border-0 nav-link" data-toggle="tab" href="#TWO">
+                  About</a></li>
+ 
+                <li class="nav-item col ml-1 mb-2"><a class="btn btn-default border-0 nav-link" data-toggle="tab" href="#THREE">
+                  Links</a></li>
+            </ul>
+ 
+            <div class="rounded bg-faded tab-content">
+                <!------------------------------------ FIRST TAB ------------------------------------------------------------->
+                <div class="tab-pane fade in active show" data-toggle="tab" id="ONE">
+                    <div class="px-4 pt-3 pb-1" style="height: 540px; overflow: auto;">
+                        <h1 style="color: #cc828a; letter-spacing:1px;" class="display-4 text-uppercase mb-3"><i class="fal fa-star fa-fw pull-right" /> Basics</h1>
+ 
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Name</span>
+                                <span class="pull-right">content</span>
+                                <hr class="my-2">
+                            </div>
+ 
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Called</span>
+                                <span class="pull-right">content</span>
+                                <hr class="my-2">
+                            </div>
+ 
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Age</span>
+                                <span class="pull-right">content</span>
+                                <hr class="my-2">
+                            </div>
+ 
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Gender</span>
+                                <span class="pull-right">content</span>
+                                <hr class="my-2">
+                            </div>
+ 
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Race</span>
+                                <span class="pull-right">content</span>
+                                <hr class="my-2">
+                            </div>
+ 
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Role</span>
+                                <span class="pull-right">content</span>
+                                <hr class="my-2">
+                            </div>
+ 
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Alignment</span>
+                                <span class="pull-right">content</span>
+                                <hr class="my-2 hidden-md-up">
+                            </div>
+ 
+                            <div class="col-sm-6">
+                                <span class="text-uppercase text-muted">Theme</span>
+                                <span class="pull-right"> <a href="SONG LINK" style="color: #cc828a;" target="_BLANK">Song link</a></span>
+                            </div>
+                        </div>
+ 
+                        <div>
+                            <hr class="mt-2 mb-3">
+                            <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius libero non sem dapibus, eget viverra nisl sagittis. Ut interdum mi non sagittis euismod. Suspendisse id venenatis massa. Aliquam ornare, nibh sit amet interdum elementum, leo sem laoreet nibh, at sollicitudin diam ipsum eu risus. Aenean gravida eu nibh id tincidunt. Pellentesque lorem mauris, cursus sed ligula eget, cursus posuere risus. Phasellus vel enim volutpat, sagittis augue at, condimentum ex. </p>
+                            <hr class="mt-3 mb-2">
+                        </div>
+ 
+                        <!------------------------------- LIKES & DISLIKES ----------------------------------->
+                        <div class="row">
+                            <div class="col-sm-6 mb-2">
+                                <p class="text-uppercase text-muted"><i class="fal fa-heart fa-fw" /> Likes</p>
+                                <ul class="mb-0">
+                                    <li class="mb-2">content</li>
+                                    <li class="mb-2">content</li>
+                                    <li class="mb-2">content</li>
+                                    <li class="mb-2">content</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 mb-2">
+                                <p class="text-uppercase text-muted"><i class="fal fa-times fa-fw" /> Dislikes</p>
+                                <ul class="mb-0">
+                                    <li class="mb-2">content</li>
+                                    <li class="mb-2">content</li>
+                                    <li class="mb-2">content</li>
+                                    <li class="mb-2">content</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ 
+                <!------------------------------------ SECOND TAB ------------------------------------------------------------->
+                <div class="tab-pane fade" data-toggle="tab" id="TWO">
+                    <div class="px-4 pt-3 pb-1" style="height: 540px; overflow: auto;">
+                        <h1 style="color: #cc828a; letter-spacing:1px;" class="display-4 text-uppercase mb-3"><i class="fal fa-book fa-fw pull-right" />About</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius libero non sem dapibus, eget viverra nisl sagittis. Ut interdum mi non sagittis euismod. Suspendisse id venenatis massa. Aliquam ornare, nibh sit amet interdum elementum, leo sem laoreet nibh, at sollicitudin diam ipsum eu risus. Aenean gravida eu nibh id tincidunt. Pellentesque lorem mauris, cursus sed ligula eget, cursus posuere risus. Phasellus vel enim volutpat, sagittis augue at, condimentum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent consectetur semper ligula, nec pretium tellus iaculis at. Nulla facilisi. Phasellus gravida pellentesque dui. Vestibulum vel dui sed odio vehicula finibus sit amet non mauris. Donec ut posuere dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam et nibh lorem.</p>
+                        <p class="text-uppercase text-muted mb-0"><i class="fal fa-bookmark fa-fw" /> Subheader</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius libero non sem dapibus, eget viverra nisl sagittis. Ut interdum mi non sagittis euismod. Suspendisse id venenatis massa. Aliquam ornare, nibh sit amet interdum elementum, leo sem laoreet nibh, at sollicitudin diam ipsum eu risus. Aenean gravida eu nibh id tincidunt. Pellentesque lorem mauris, cursus sed ligula eget, cursus posuere risus. Phasellus vel enim volutpat, sagittis augue at, condimentum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent consectetur semper ligula, nec pretium tellus iaculis at. Nulla facilisi. Phasellus gravida pellentesque dui. Vestibulum vel dui sed odio vehicula finibus sit amet non mauris. Donec ut posuere dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam et nibh lorem.</p>
+ 
+                        <p class="text-uppercase text-muted mb-0"><i class="fal fa-bookmark fa-fw" /> Subheader</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius libero non sem dapibus, eget viverra nisl sagittis. Ut interdum mi non sagittis euismod. Suspendisse id venenatis massa. Aliquam ornare, nibh sit amet interdum elementum, leo sem laoreet nibh, at sollicitudin diam ipsum eu risus. Aenean gravida eu nibh id tincidunt. Pellentesque lorem mauris, cursus sed ligula eget, cursus posuere risus. Phasellus vel enim volutpat, sagittis augue at, condimentum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent consectetur semper ligula, nec pretium tellus iaculis at. Nulla facilisi. Phasellus gravida pellentesque dui. Vestibulum vel dui sed odio vehicula finibus sit amet non mauris. Donec ut posuere dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam et nibh lorem.</p>
+                    </div>
+                </div>
+ 
+                <!------------------------------------ THIRD TAB ------------------------------------------------------------->
+                <div class="tab-pane fade" data-toggle="tab" id="THREE">
+                    <div class="px-4 pt-3 pb-1" style="height: 540px; overflow: auto;">
+                        <h1 style="color: #cc828a; letter-spacing:1px;" class="display-4 text-uppercase mb-3"><i class="fal fa-users fa-fw pull-right" /> Relationships</h1>
+ 
+                        <div class="row">
+                            <!--------------------------- CHARACTER LINK -------------------------------------->
+                            <div class="col-12 mb-3">
+                                <img src="IMG URL" style="max-height:100px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
+ 
+                                <p class="my-2" style="letter-spacing:1px; font-size: 14pt; font-weight:300;"><a href="LINK" style="color: #cc828a;">
+                                Character</a>
+ 
+                                <span class="text-muted pull-right small mt-1" style="letter-spacing:1px; font-weight:300">
+                                [ relationship ]</span></p>
+ 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin. In feugiat posuere nulla, eget lobortis ante. </p>
+                            </div>
+ 
+                            <!--------------------------- CHARACTER LINK -------------------------------------->
+                            <div class="col-12 mb-3">
+                                <img src="IMG URL" style="max-height:100px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
+ 
+                                <p class="my-2" style="letter-spacing:1px; font-size: 14pt; font-weight:300;"><a href="LINK" style="color: #cc828a;">
+                                Character</a>
+ 
+                                <span class="text-muted pull-right small mt-1" style="letter-spacing:1px; font-weight:300">
+                                [ relationship ]</span></p>
+ 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin. In feugiat posuere nulla, eget lobortis ante. </p>
+                            </div>
+ 
+                            <!--------------------------- CHARACTER LINK -------------------------------------->
+                            <div class="col-12 mb-3">
+                                <img src="IMG URL" style="max-height:100px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
+ 
+                                <p class="my-2" style="letter-spacing:1px; font-size: 14pt; font-weight:300;"><a href="LINK" style="color: #cc828a;">
+                                Character</a>
+ 
+                                <span class="text-muted pull-right small mt-1" style="letter-spacing:1px; font-weight:300">
+                                [ relationship ]</span></p>
+ 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin. In feugiat posuere nulla, eget lobortis ante. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-right small">HTML by @Eggy</p>
+</div>

@@ -1,0 +1,415 @@
+<div class="container card px-3 py-4 bg-faded rounded-0 mt-4 mb-5" style="box-shadow: 0px 0px 16px rgba(0,0,0,.3);">
+   <div class="row">
+      <div class="col-lg-4 mb-md-0 mb-3">
+        <!------------- LEFT CONTENT BLOCK ------------------------------------------->
+         <div class="card pt-3 px-4 pb-md-0 pb-3 d-block h-100 rounded-0" style="font-size: 10.5pt;">
+            <h1 class="text-center display-4 text-uppercase mb-2">Name</h1>
+            <!---------------------- USE A 200 x 200 AVATAR ------------------------------------------------->
+            <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" style="max-height: 200px;" 
+            class="d-block mx-auto mb-2 rounded-circle img-thumbnail">
+ 
+            <!---------------- CHARACTER STATS --- CHANGE % to CHANGE FULLNESS ------------------------------>
+            <!-- note for each stat you'll write the % twice --- once in the span tags for the display amount
+            ---- and onces in the progress-bar div for the actual progress bar width -->
+            <b class="text-uppercase">HP
+			      <span class="pull-right text-muted">70%</span></b>
+            <div class="progress rounded-0 mb-3">
+               <div class="progress-bar rounded-0" style="width:70%">
+               </div>
+            </div>
+ 
+            <b class="text-uppercase">Attack
+			      <span class="pull-right text-muted">25%</span></b>
+            <div class="progress rounded-0 mb-3">
+               <div class="progress-bar rounded-0" style="width:25%">
+               </div>
+            </div>
+ 
+            <b class="text-uppercase">Defense
+			      <span class="pull-right text-muted">40%</span></b>
+            <div class="progress rounded-0 mb-3">
+               <div class="progress-bar rounded-0" style="width:40%">
+               </div>
+            </div>
+ 
+            <b class="text-uppercase">Speed
+			      <span class="pull-right text-muted">65%</span></b>
+            <div class="progress rounded-0 mb-3">
+               <div class="progress-bar rounded-0" style="width:65%">
+               </div>
+            </div>
+ 
+            <b class="text-uppercase">Dexterity
+			      <span class="pull-right text-muted">50%</span></b>
+            <div class="progress rounded-0 mb-3">
+               <div class="progress-bar rounded-0" style="width:50%">
+               </div>
+            </div>
+ 
+            <b class="text-uppercase">Intellect
+			      <span class="pull-right text-muted">20%</span></b>
+            <div class="progress rounded-0 mb-3">
+               <div class="progress-bar rounded-0" style="width:20%">
+               </div>
+            </div>
+ 
+            <b class="text-uppercase">Charisma
+			      <span class="pull-right text-muted">80%</span></b>
+            <div class="progress rounded-0 mb-3">
+               <div class="progress-bar rounded-0" style="width:80%">
+               </div>
+            </div>
+ 
+            <b class="text-uppercase">Luck
+			      <span class="pull-right text-muted">50%</span></b>
+            <div class="progress rounded-0">
+               <div class="progress-bar rounded-0" style="width:50%">
+               </div>
+            </div>
+         </div>
+      </div>
+ 
+      <div class="col-lg-8">
+         <ul class="nav nav-justified row no-gutters mb-2 text-uppercase" style="font-size: 10.5pt; letter-spacing:1px;">
+          <!----------------- NAVIGATION BUTTONS ----- YOU CAN CHANGE THE TEXT ---------------------------------------------------->
+          <li class="nav-item col-md-4 col-6 pr-2"><a class="nav-link active mb-2 btn btn-default rounded-0" data-toggle="tab" href="#ONE">
+            Basics</a></li>
+ 
+          <li class="nav-item col-md-4 col-6 px-md-1 pl-2"><a class="nav-link mb-2 btn btn-default rounded-0" data-toggle="tab" href="#TWO">
+            Character</a></li>
+ 
+          <li class="nav-item col-md-4 col-6 pl-md-2 pr-md-0 pr-2"><a class="nav-link mb-2 btn btn-default rounded-0" data-toggle="tab" href="#THREE">
+            Skills</a></li>
+ 
+          <li class="nav-item col-md-4 col-6 pr-md-2 pl-md-0 pl-2"><a class="nav-link mb-2 btn btn-default rounded-0" data-toggle="tab" href="#FOUR">
+            Inventory</a></li>
+ 
+          <li class="nav-item col-md-4 col-6 px-md-1 pr-2"><a class="nav-link mb-2 btn btn-default rounded-0" data-toggle="tab" href="#FIVE">Summary</a></li>
+ 
+          <li class="nav-item col-md-4 col-6 pl-2"><a class="nav-link mb-2 btn btn-default rounded-0" data-toggle="tab" href="#SIX">
+            Allies</a></li>
+         </ul>
+         <div class="card tab-content">
+           <!---------------------- SECTION ONE - BASICS ------------------------------------------------->
+            <div class="tab-pane card-block active" style="height:610px; padding-bottom:8px; overflow:auto;" id="ONE">
+               <h1 class="text-uppercase" style="letter-spacing:1px;">
+                 <i class="fas fa-star mr-1" /> Basics</h1>
+               <hr>
+               <div class="row">
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Name</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Alias</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Age</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Gender</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Origin</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Race</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Class</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Alignment</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Height</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Build</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Demeanor</small>
+                     <span class="pull-right">content</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Theme</small>
+                     <!-- fill in a yt link to the song here -->
+                     <span class="pull-right"><a href="SONG_LINK" target="_BLANK">Song Name</a></span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Value</small>
+                     <span class="pull-right">$$$</span>
+                  </div>
+ 
+                  <div class="col-sm-6 mb-3">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">HTML</small>
+                     <span class="pull-right">@eggy</span>
+                  </div>
+ 
+                  <!---------------------- QUOTE HERE ------------------------------------------------->
+                  <div class="col-12 my-2">
+                     <hr class="mt-0">
+                     <p class="text-center"><i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</i></p>
+                     <hr>
+                  </div>
+ 
+                  <!---------------------- LIKES & DISLIKES ------------------------------------------------->
+                  <div class="col-sm-6">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Likes</small>
+                     <ul class="mb-0">
+                        <li class="mb-2">content</li>
+                        <li class="mb-2">content</li>
+                        <li class="mb-2">content</li>
+                        <li class="mb-2">content</li>
+                     </ul>
+                  </div>
+ 
+                  <div class="col-sm-6">
+                     <small class="text-uppercase font-weight-bold" style="letter-spacing: 1px;">Dislikes</small>
+                     <ul class="mb-0">
+                        <li class="mb-2">content</li>
+                        <li class="mb-2">content</li>
+                        <li class="mb-2">content</li>
+                        <li class="mb-2">content</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+ 
+            <!---------------------- SECTION TWO - CHARACTER ------------------------------------------------->
+            <div class="tab-pane card-block" style="height:610px; padding-bottom:8px; overflow:auto;" id="TWO">
+               <h1 class="text-uppercase" style="letter-spacing:1px;">
+                 <i class="fas fa-chart-area mr-1" /> Character</h1>
+               <hr>
+               <!---- STATS - CHANGE % TO CHANGE WIDTH - BAR FILLS FROM THE LEFT  
+               ------ the higher the % the farther right the marker will go ----->
+               <div class="row px-sm-4 mx-auto mb-3 text-uppercase font-weight-bold">
+ 
+                  <div class="col-12 mb-3">
+                     Social <span class="pull-right">Reserved</span>
+                     <div class="progress rounded-0 d-block">
+                        <div class="progress-bar card-primary" 
+                        style="background:none; border-right-width: 8px; border-right-style:solid; width:20%">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 mb-3">
+                     Empathetic <span class="pull-right">Logical</span>
+                     <div class="progress rounded-0 d-block">
+                        <div class="progress-bar card-primary" 
+                        style="background:none; border-right-width: 8px; border-right-style:solid; width:35%">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 mb-3">
+                     Dishonest <span class="pull-right">Sincere</span>
+                     <div class="progress rounded-0 d-block">
+                        <div class="progress-bar card-primary" 
+                        style="background:none; border-right-width: 8px; border-right-style:solid; width:50%">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 mb-3">
+                     Serious <span class="pull-right">Trivial</span>
+                     <div class="progress rounded-0 d-block">
+                        <div class="progress-bar card-primary" 
+                        style="background:none; border-right-width: 8px; border-right-style:solid; width:65%">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 mb-3">
+                     Cautious <span class="pull-right">Risky</span>
+                     <div class="progress rounded-0 d-block">
+                        <div class="progress-bar card-primary" 
+                        style="background:none; border-right-width: 8px; border-right-style:solid; width:80%">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                 <!---------------------- STRENGTHS & FLAWS ------------------------------------------------->
+                  <div class="col-sm-6 mb-4">
+                      <p class="mb-1 font-weight-bold"><i class="fas fa-plus mr-1" /> Strengths</p>
+                     <hr class="mt-0">
+                     <p><i class="far fa-square mr-1" /> Write some of their positive personality traits</p>
+                     <p><i class="far fa-square mr-1" /> Content</p>
+                     <p><i class="far fa-square mr-1" /> Content</p>
+                     <p><i class="far fa-square mr-1" /> Content</p>
+                  </div>
+                  <div class="col-sm-6">
+                     <p class="mb-1 font-weight-bold"><i class="fas fa-times mr-1" /> Flaws</p>
+                     <hr class="mt-0">
+                     <p><i class="far fa-square mr-1" /> Write some of their negative personality traits</p>
+                     <p><i class="far fa-square mr-1" /> Content</p>
+                     <p><i class="far fa-square mr-1" /> Content</p>
+                     <p><i class="far fa-square mr-1" /> Content</p>
+                  </div>
+               </div>
+            </div>
+            <!---------------------- SECTION THREE - SKILLS ------------------------------------------------->
+            <div class="tab-pane card-block" style="height:610px; padding-bottom:8px; overflow:auto;" id="THREE">
+               <h1 class="text-uppercase" style="letter-spacing:1px;">
+                 <i class="fas fa-bolt mr-1" /> Skills & Abilities</h1>
+               <hr>
+               <p><b class="text-uppercase">Skill 1</b>
+                  <br>Describe skills & abilities here
+               </p>
+ 
+               <p><b class="text-uppercase">Skill 2</b>
+                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis purus vitae massa pretium accumsan. Sed ullamcorper justo nulla, in bibendum lacus pulvinar nec.
+               </p>
+ 
+               <p><b class="text-uppercase">Skill 3</b>
+                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis purus vitae massa pretium accumsan. Sed ullamcorper justo nulla, in bibendum lacus pulvinar nec.
+               </p>
+ 
+               <p><b class="text-uppercase">Skill 4</b>
+                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis purus vitae massa pretium accumsan. Sed ullamcorper justo nulla, in bibendum lacus pulvinar nec.
+               </p>
+ 
+               <p><b class="text-uppercase">Skill 5</b>
+                  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis purus vitae massa pretium accumsan. Sed ullamcorper justo nulla, in bibendum lacus pulvinar nec.
+               </p>
+            </div>
+ 
+            <!---------------------- SECTION FOUR - INVENTORY ------------------------------------------------->
+            <div class="tab-pane card-block" style="height:610px; padding-bottom:8px; overflow:auto;" id="FOUR">
+               <h1 class="text-uppercase" style="letter-spacing:1px;">
+                 <i class="fas fa-shield-alt mr-1" /> Inventory</h1>
+               <hr>
+               <p><b class="text-uppercase">Item Name</b>
+			          <span class="pull-right text-muted">[ effect ]</span>
+                  <br>Use this section to describe inventory, such as weapons, armor, accessories, clothing, potions, treasure or anything else
+               </p>
+ 
+               <p><b class="text-uppercase">Weapon 1</b>
+			          <span class="pull-right text-muted">[ effect ]</span>
+                  <br>write a small descriptoin here
+               </p>
+ 
+               <p><b class="text-uppercase">Weapon 2</b>
+			          <span class="pull-right text-muted">[ effect ]</span>
+                  <br>write a small descriptoin here
+               </p>
+ 
+               <p><b class="text-uppercase">Armor</b>
+			          <span class="pull-right text-muted">[ effect ]</span>
+                  <br>write a small descriptoin here
+               </p>
+ 
+               <p><b class="text-uppercase">Accessory</b>
+			          <span class="pull-right text-muted">[ effect ]</span>
+                  <br>write a small descriptoin here
+               </p>
+ 
+               <p><b class="text-uppercase">Treasure</b>
+			          <span class="pull-right text-muted">[ effect ]</span>
+                  <br>write a small descriptoin here
+               </p>
+ 
+               <p><b class="text-uppercase">Misc</b>
+			          <span class="pull-right text-muted">[ effect ]</span>
+                  <br>write a small descriptoin here
+               </p>
+            </div>
+ 
+            <!---------------------- SECTION FIVE - SUMMARY ------------------------------------------------->
+            <div class="tab-pane card-block" style="height:610px; padding-bottom:8px; overflow:auto;" id="FIVE">
+               <h1 class="text-uppercase" style="letter-spacing:1px;">
+                 <i class="fas fa-bookmark mr-1" /> Summary</h1>
+               <hr>
+               <div style="font-size: .96em;">
+			          <!------------- OPTIONAL FOCAL IMAGE --------------->
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/18181815_7i5kXnjNjF3JOSY.png" 
+                class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 400px;">
+ 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare interdum massa, dignissim commodo ipsum dapibus et. Nullam venenatis nunc a tortor consequat, sed efficitur risus bibendum. Integer rhoncus cursus interdum. Duis tincidunt urna at elit mattis condimentum. Vivamus nec interdum tortor, eget fermentum diam. Nunc aliquam pulvinar quam vitae ullamcorper. Aliquam eu arcu at justo rutrum accumsan. Nullam eget felis sit amet eros convallis tincidunt dapibus non orci. Duis quis velit venenatis odio malesuada gravida non nec tellus. Nulla eget turpis quis nulla suscipit malesuada.</p>
+ 
+                <p class="font-weight-bold mb-1 text-uppercase" style="letter-spacing:1px;"><i class="fa fa-square mr-1" /> Subheader</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare interdum massa, dignissim commodo ipsum dapibus et. Nullam venenatis nunc a tortor consequat, sed efficitur risus bibendum. Integer rhoncus cursus interdum. Duis tincidunt urna at elit mattis condimentum. Vivamus nec interdum tortor, eget fermentum diam. Nunc aliquam pulvinar quam vitae ullamcorper. Aliquam eu arcu at justo rutrum accumsan. Nullam eget felis sit amet eros convallis tincidunt dapibus non orci. Duis quis velit venenatis odio malesuada gravida non nec tellus. Nulla eget turpis quis nulla suscipit malesuada.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare interdum massa, dignissim commodo ipsum dapibus et. Nullam venenatis nunc a tortor consequat, sed efficitur risus bibendum. Integer rhoncus cursus interdum. Duis tincidunt urna at elit mattis condimentum. Vivamus nec interdum tortor, eget fermentum diam. Nunc aliquam pulvinar quam vitae ullamcorper. Aliquam eu arcu at justo rutrum accumsan. Nullam eget felis sit amet eros convallis tincidunt dapibus non orci. Duis quis velit venenatis odio malesuada gravida non nec tellus. Nulla eget turpis quis nulla suscipit malesuada.</p>
+ 
+                <p class="font-weight-bold mb-1 text-uppercase" style="letter-spacing:1px;"><i class="fa fa-square mr-1" /> Subheader</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare interdum massa, dignissim commodo ipsum dapibus et. Nullam venenatis nunc a tortor consequat, sed efficitur risus bibendum. Integer rhoncus cursus interdum. Duis tincidunt urna at elit mattis condimentum. Vivamus nec interdum tortor, eget fermentum diam. Nunc aliquam pulvinar quam vitae ullamcorper. Aliquam eu arcu at justo rutrum accumsan. Nullam eget felis sit amet eros convallis tincidunt dapibus non orci. Duis quis velit venenatis odio malesuada gravida non nec tellus. Nulla eget turpis quis nulla suscipit malesuada.</p>
+ 
+               </div>
+            </div>
+ 
+            <!---------------------- SECTION SIX - RELATIONSHIPS ------------------------------------------------->
+            <div class="tab-pane card-block" style="height:610px; padding-bottom:8px; overflow:auto;" id="SIX">
+               <h1 class="text-uppercase" style="letter-spacing:1px;">
+                 <i class="fas fa-users mr-1" /> Relationships</h1>
+               <hr>
+               <div class="row">
+                 <!---------------------- CHARACTER ROW ------------------------------------------>
+                  <div class="col-12 mb-2">
+                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" 
+                     class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 150px;">
+ 
+                     <h2><a href="CHARACTER_LINK">Name</a></h2>
+ 
+                     <p>[ <i>relationship</i> ] 
+          					 <i class="fas fa-heart fa-fw" /> 
+          					 <i class="fas fa-heart fa-fw" /> 
+          					 <i class="fas fa-heart fa-fw" /> 
+          					 <i class="fas fa-heart fa-fw" /> 
+          					 <i class="fas fa-heart fa-fw" /></p>
+ 
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin.</p>
+                  </div>
+ 
+                  <!---------------------- CHARACTER ROW ------------------------------------------>
+                  <div class="col-12 mb-2">
+                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" 
+                     class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 150px;">
+ 
+                     <h2><a href="CHARACTER_LINK">Name</a></h2>
+ 
+                     <p>[ <i>relationship</i> ] 
+          					 <i class="fas fa-heart fa-fw" /> 
+          					 <i class="fas fa-heart fa-fw" /> 
+          					 <i class="fas fa-heart fa-fw" /></p>
+ 
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin.</p>
+                  </div>
+ 
+				  <!---------------------- CHARACTER ROW ------------------------------------------>
+                  <div class="col-12 mb-2">
+                     <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/18181840_kwa.png" 
+                     class="float-sm-right ml-sm-2 d-block mx-auto mb-1" style="max-height: 150px;">
+ 
+                     <h2><a href="CHARACTER_LINK">Name</a></h2>
+ 
+                     <p>[ <i>relationship</i> ] 
+          					 <i class="fas fa-heart fa-fw" /> 
+          					 <i class="fas fa-heart fa-fw" /> </p>
+ 
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

@@ -1,0 +1,308 @@
+<div class="cotainer-fluid card border-0 px-0 pt-5 pb-4" style="margin-top: -62px;">
+    <div class="container" style="max-width: 1000px;">
+        <div class="row no-gutters">
+            <div class="col-md-4 push-md-8">
+              <!----- AVATAR IMAGE --- use a square image --- max size is 300px, will auto resize bigger images --->
+                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777845_Ja7J7dn53mMdWIX.png" class="d-block mx-auto mt-md-4 mb-4 img-thumbnail rounded-circle" style="max-height: 300px;">
+                <ul class="nav nav-justified row no-gutters mb-1" style="letter-spacing: 1px; font-weight: 300; font-variant:small-caps;">
+                    <!----------------- NAVIGATION BUTTONS ----- YOU CAN CHANGE THE TEXT ---------------------------------------------------->
+                    <li class="nav-item col-6 mb-3 pr-2">
+                        <a class="nav-link active btn btn-outline-secondary" data-toggle="tab" href="#ONE">
+                          Basics</a></li>
+ 
+                    <li class="nav-item col-6 mb-3 pl-2">
+                        <a class="nav-link btn btn-outline-secondary" data-toggle="tab" href="#TWO">
+                          About</a></li>
+ 
+                    <li class="nav-item col-6 mb-3 pr-2">
+                        <a class="nav-link btn btn-outline-secondary" data-toggle="tab" href="#THREE">
+                          Mood</a></li>
+ 
+                    <li class="nav-item col-6 mb-3 pl-2">
+                        <a class="nav-link btn btn-outline-secondary" data-toggle="tab" href="#FOUR">
+                          Links</a></li>
+ 
+                </ul>
+            </div>
+            <div class="col-md-8 pr-md-4 pull-md-4">
+              <div class="tab-content">
+              <!------------------------------- SECTION ONE -- BASICS --------------------------------->
+              <div class="tab-pane fade in active show" id="ONE">
+                <h1 class="display-4 text-muted" style="letter-spacing: 1px; font-variant:small-caps;">
+                Title Here</h1>
+                <div class="card bg-faded pl-2 pr-md-0 pr-2 pt-3 pb-1" style="height: 450px; overflow-x:auto;">
+ 
+                  <div class="row no-gutters my-auto">
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Name
+                     </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          content
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Alias
+                     </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          content
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Age
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          content
+                      </div>
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          DoB
+                     </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          content
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                           Gender
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          content
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Race
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          or species
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Role
+                     </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          what they do
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          MBTI
+                     </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                          content
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Theme
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <!-------- link a song here ------------->
+                          <a href="SONG LINK" target="_BLANK">
+                            <i class="fas fa-music-alt fa-fw" /><i class="fas fa-music fa-fw" /><i class="fas fa-music-alt fa-fw" />
+                          </a>
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          HTML
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <!------ credit ------ leave this alone pls  ---------------->
+                          @Eggy
+                      </div>
+ 
+                  <!--------------- PERSONALITY STATS -- USE FAS TO FILL IN -- FAR TO OPEN -------------------------->
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                        Empathy
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <i class="fas fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                        Charisma
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <i class="fas fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                        Courage
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <i class="fas fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                        Integrity
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <i class="fas fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                        Intellect
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <i class="fas fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                        Luck
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                        <i class="fas fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                        <i class="far fa-circle fa-fw" />
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Likes
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                              one
+                          <br>two
+                          <br>three
+                      </div>
+ 
+                      <div class="col-sm-2 col-5 text-right text-muted pr-2" style="letter-spacing:1px; font-variant:small-caps;">
+                          Dislikes
+                      </div><div class="col-sm-4 col-7 pr-md-2 mb-3">
+                              one
+                          <br>two
+                          <br>three
+                      </div>
+                  </div>
+                </div>
+              </div>
+ 
+              <!------------------------------- SECTION TWO -- ABOUT --------------------------------->
+              <div class="tab-pane fade" id="TWO">
+                <h1 class="display-4 text-muted" style="letter-spacing: 1px; font-variant:small-caps;">
+                About</h1>
+                <div class="card bg-faded px-3 pt-3 pb-2" style="height: 450px; overflow:auto;">
+ 
+                <p>Write a description of your character here. This box will scroll when filled with content.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta condimentum luctus. Curabitur eu tortor et augue ullamcorper imperdiet et vel quam. In finibus ipsum eget consequat placerat. Suspendisse dignissim euismod sem at iaculis. Vivamus porta accumsan justo pulvinar ultricies. Praesent quis suscipit nisl. Integer enim ex, accumsan iaculis condimentum id, finibus a est.</p>
+ 
+                <p class="text-muted mb-1" style="letter-spacing:1px; font-variant:small-caps; font-size: 1.25em;">
+                  <i class="fas fa-bookmark fa-fw"/> Subheader
+                </p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta condimentum luctus. Curabitur eu tortor et augue ullamcorper imperdiet et vel quam. In finibus ipsum eget consequat placerat. Suspendisse dignissim euismod sem at iaculis. Vivamus porta accumsan justo pulvinar ultricies. Praesent quis suscipit nisl. Integer enim ex, accumsan iaculis condimentum id, finibus a est.</p>
+                <p>Nulla eu blandit nisl. Quisque nec nulla eu lorem aliquet commodo. Vestibulum maximus laoreet lacus a sollicitudin. Nam vitae libero tempor, aliquet libero congue, tincidunt libero. Etiam elit neque, vehicula et interdum vitae, sodales et libero. Aliquam pulvinar vulputate sapien, id lacinia orci cursus eget. Aliquam erat volutpat. Duis vel quam at ante blandit lacinia. Pellentesque eget arcu lacus.</p>
+ 
+                <p class="text-muted mb-1" style="letter-spacing:1px; font-variant:small-caps; font-size: 1.25em;">
+                  <i class="fas fa-bookmark fa-fw"/> Subheader
+                </p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta condimentum luctus. Curabitur eu tortor et augue ullamcorper imperdiet et vel quam. In finibus ipsum eget consequat placerat. Suspendisse dignissim euismod sem at iaculis. Vivamus porta accumsan justo pulvinar ultricies. Praesent quis suscipit nisl. Integer enim ex, accumsan iaculis condimentum id, finibus a est.</p>
+                <p>Nulla eu blandit nisl. Quisque nec nulla eu lorem aliquet commodo. Vestibulum maximus laoreet lacus a sollicitudin. Nam vitae libero tempor, aliquet libero congue, tincidunt libero. Etiam elit neque, vehicula et interdum vitae, sodales et libero. Aliquam pulvinar vulputate sapien, id lacinia orci cursus eget. Aliquam erat volutpat. Duis vel quam at ante blandit lacinia. Pellentesque eget arcu lacus.</p>
+                </div>
+              </div>
+ 
+              <!------------------------------- SECTION THREE -- MOODBOARD --------------------------------->
+              <div class="tab-pane fade" id="THREE">
+                <h1 class="display-4 text-muted" style="letter-spacing: 1px; font-variant:small-caps;">
+                Moodboard</h1>
+                <div class="card bg-faded px-3 pt-3 pb-1" style="height: 450px; overflow:auto;">
+                <!----- images will scale with the screen size ---------------------------->
+                <div class="row no-gutters my-auto">
+                  <div class="col-md-4 col-6 text-center px-1 mb-2">
+                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                  </div>
+ 
+                  <div class="col-md-4 col-6 text-center px-1 mb-2">
+                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                  </div>
+ 
+                  <div class="col-md-4 col-6 text-center px-1 mb-2">
+                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                  </div>
+ 
+                  <div class="col-md-4 col-6 text-center px-1 mb-2">
+                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                  </div>
+ 
+                  <div class="col-md-4 col-6 text-center px-1 mb-2">
+                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                  </div>
+ 
+                  <div class="col-md-4 col-6 text-center px-1 mb-2">
+                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                  </div>
+                </div>
+                </div>
+              </div>
+ 
+              <!------------------------------- SECTION FOUR -- LINKS --------------------------------->
+              <div class="tab-pane fade" id="FOUR">
+                <h1 class="display-4 text-muted" style="letter-spacing: 1px; font-variant:small-caps;">
+                Relation<span class="hidden-sm-down">ship</span>s</h1>
+                <div class="card bg-faded px-3 pt-3" style="height: 450px; overflow:auto;">
+                 <!----- RELATIONSHIPS --- number of hearts represents relationship strength --->
+                  <div class="row">
+                   <!---------------------- CHARACTER ROW ------------------------------------------>
+                   <div class="col-12 mb-2">
+                      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777818_hItz5m3RqHNik49.png" 
+                      class="float-sm-left mr-sm-2 d-block mx-auto mb-1 rounded" style="height: 140px;">
+ 
+                      <div class="justify-content-between mb-3">
+                        <a href="CHARACTER LINK" style="letter-spacing:1px; font-variant: small-caps;">
+                          Name
+                        </a><span>
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" />
+                        </span>
+                      </div>
+ 
+            					 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin.</p>
+                   </div>
+ 
+                   <!---------------------- CHARACTER ROW ------------------------------------------>
+                   <div class="col-12 mb-2">
+                      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777818_hItz5m3RqHNik49.png" 
+                      class="float-sm-left mr-sm-2 d-block mx-auto mb-1 rounded" style="height: 140px;">
+ 
+                      <div class="justify-content-between mb-3">
+                        <a href="CHARACTER LINK" style="letter-spacing:1px; font-variant: small-caps;">
+                          Name
+                        </a><span>
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                        </span>
+                      </div>
+ 
+            					 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin.</p>
+                   </div>
+ 
+                   <!---------------------- CHARACTER ROW ------------------------------------------>
+                   <div class="col-12 mb-2">
+                      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777818_hItz5m3RqHNik49.png" 
+                      class="float-sm-left mr-sm-2 d-block mx-auto mb-1 rounded" style="height: 140px;">
+ 
+                      <div class="justify-content-between mb-3">
+                        <a href="CHARACTER LINK" style="letter-spacing:1px; font-variant: small-caps;">
+                          Name
+                        </a><span>
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                          <i class="fas fa-heart fa-fw" /> 
+                        </span>
+                      </div>
+ 
+            					 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin.</p>
+                   </div>
+ 
+                </div>
+                </div>
+ 
+              </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
