@@ -3,7 +3,7 @@
         <div class="row no-gutters">
             <div class="col-md-4 push-md-8">
               <!----- AVATAR IMAGE --- use a square image --- max size is 300px, will auto resize bigger images --->
-                <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777845_Ja7J7dn53mMdWIX.png" class="d-block mx-auto mt-md-4 mb-4 img-thumbnail rounded-circle" style="max-height: 300px;">
+                <img src="IMG URL" class="d-block mx-auto mt-md-4 mb-4 img-thumbnail rounded-circle" style="max-height: 300px;">
                 <ul class="nav nav-justified row no-gutters mb-1" style="letter-spacing: 1px; font-weight: 300; font-variant:small-caps;">
                     <!----------------- NAVIGATION BUTTONS ----- YOU CAN CHANGE THE TEXT ---------------------------------------------------->
                     <li class="nav-item col-6 mb-3 pr-2">
@@ -207,27 +207,27 @@
                 <!----- images will scale with the screen size ---------------------------->
                 <div class="row no-gutters my-auto">
                   <div class="col-md-4 col-6 text-center px-1 mb-2">
-                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                    <img src="IMG URL" class="rounded">
                   </div>
  
                   <div class="col-md-4 col-6 text-center px-1 mb-2">
-                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                    <img src="IMG URL" class="rounded">
                   </div>
  
                   <div class="col-md-4 col-6 text-center px-1 mb-2">
-                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                    <img src="IMG URL" class="rounded">
                   </div>
  
                   <div class="col-md-4 col-6 text-center px-1 mb-2">
-                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                    <img src="IMG URL" class="rounded">
                   </div>
  
                   <div class="col-md-4 col-6 text-center px-1 mb-2">
-                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                    <img src="IMG URL" class="rounded">
                   </div>
  
                   <div class="col-md-4 col-6 text-center px-1 mb-2">
-                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777973_QOBmDQdv80ugZRC.png" class="rounded">
+                    <img src="IMG URL" class="rounded">
                   </div>
                 </div>
                 </div>
@@ -242,7 +242,7 @@
                   <div class="row">
                    <!---------------------- CHARACTER ROW ------------------------------------------>
                    <div class="col-12 mb-2">
-                      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777818_hItz5m3RqHNik49.png" 
+                      <img src="IMG URL" 
                       class="float-sm-left mr-sm-2 d-block mx-auto mb-1 rounded" style="height: 140px;">
  
                       <div class="justify-content-between mb-3">
@@ -262,7 +262,7 @@
  
                    <!---------------------- CHARACTER ROW ------------------------------------------>
                    <div class="col-12 mb-2">
-                      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777818_hItz5m3RqHNik49.png" 
+                      <img src="IMG URL" 
                       class="float-sm-left mr-sm-2 d-block mx-auto mb-1 rounded" style="height: 140px;">
  
                       <div class="justify-content-between mb-3">
@@ -281,7 +281,7 @@
  
                    <!---------------------- CHARACTER ROW ------------------------------------------>
                    <div class="col-12 mb-2">
-                      <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/17777818_hItz5m3RqHNik49.png" 
+                      <img src="IMG URL" 
                       class="float-sm-left mr-sm-2 d-block mx-auto mb-1 rounded" style="height: 140px;">
  
                       <div class="justify-content-between mb-3">
