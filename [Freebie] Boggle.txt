@@ -1,0 +1,450 @@
+<div class="container p-0" style="font-size: 10.5pt;">
+<div class="card rounded-0 bg-faded p-lg-3 p-2">
+<div class="row no-gutters justify-content-center">
+<div class="col mb-lg-0 mb-3" style="max-width: 280px;">
+    <!--------- SIDE STATS -------------------------------------------------------->
+    <div class="card rounded-0 border-0 modal-open h-100">
+      <!------ focal image -- should be at least 280 x 280 -- will scale with screen -- focus in top center of image------->
+      <div style="background-image: url('IMG_URL'); 
+      background-size: cover; background-position: center 0; background-repeat: no-repeat; min-height: 280px;" class="mb-3"></div>
+      <div class="mt-auto w-100">
+      <!---- stats section --- you can change the font awesome icons to do different stats --->
+      <div class="px-3 d-flex align-items-center mb-3">
+          <div class="bg-faded p-1 rounded">
+              <i class="fal fa-user fa-fw text-muted" />
+          </div><div class="pl-2">
+            name here
+          </div>
+      </div>
+ 
+      <div class="px-3 d-flex align-items-center mb-3">
+          <div class="bg-faded p-1">
+              <i class="fal fa-calendar-alt fa-fw text-muted" />
+          </div><div class="pl-2">
+              age here
+          </div>
+      </div>
+ 
+      <div class="px-3 d-flex align-items-center mb-3">
+          <div class="bg-faded p-1">
+              <i class="fal fa-venus-mars fa-fw text-muted" />
+          </div><div class="pl-2">
+              gender here
+          </div>
+      </div>
+ 
+      <div class="px-3 d-flex align-items-center mb-3">
+          <div class="bg-faded p-1">
+              <i class="fal fa-dna fa-fw text-muted" />
+            </div><div class="pl-2">
+              race/species here
+            </div>
+      </div>
+ 
+      <div class="px-3 d-flex align-items-center mb-3">
+          <div class="bg-faded p-1">
+              <i class="fal fa-ruler fa-fw text-muted" />
+            </div><div class="pl-2">
+              height here
+            </div>
+      </div>
+ 
+      <div class="px-3 d-flex align-items-center mb-3">
+          <div class="bg-faded p-1">
+              <i class="fal fa-cog fa-fw text-muted" />
+            </div><div class="pl-2">
+              role/occupation here
+            </div>
+      </div>
+ 
+      </div>
+    </div>
+</div>
+<!--------- CONTENT AREA -------------------------------------------------------->
+<div class="col-lg pl-lg-4">
+    <div class="card border-0 rounded-0 modal-open">
+    <div class="card-header border-0 px-0 pt-0">
+        <!--------------------------- NAVIGATION BUTTONS -------------------------------------->
+        <ul class="nav nav-tabs card-header-tabs nav-justified text-uppercase mx-0" style="letter-spacing:1px;">
+        <li class="nav-item"><a class="nav-link active border-0" style="border-radius: 0px;" data-toggle="tab" href="#ONE">
+          <i class="fal fa-info-circle fa-fw" /></a></li>
+ 
+        <li class="nav-item"><a class="nav-link border-0" style="border-radius: 0px;" data-toggle="tab" href="#TWO">
+          <i class="fal fa-list-alt fa-fw" /></a></li>
+ 
+        <li class="nav-item"><a class="nav-link border-0" style="border-radius: 0px;" data-toggle="tab" href="#THREE">
+          <i class="fal fa-balance-scale fa-fw" /></a></li>
+ 
+        <li class="nav-item"><a class="nav-link border-0" style="border-radius: 0px;" data-toggle="tab" href="#FOUR">
+          <i class="fal fa-image fa-fw" /></a></li>
+ 
+        <li class="nav-item"><a class="nav-link border-0" style="border-radius: 0px;" data-toggle="tab" href="#FIVE">
+          <i class="fal fa-books fa-fw" /></a></li>
+ 
+        <li class="nav-item"><a class="nav-link border-0" style="border-radius: 0px;" data-toggle="tab" href="#SIX">
+          <i class="fal fa-link fa-fw" /></a></li>
+        </ul>
+    </div>
+ 
+    <div class="tab-content">
+        <!--------------------------- SECTION ONE --- ABOUT ----------------------------------->
+        <div class="tab-pane active show px-4 pt-4 pb-1" style="height: 540px; overflow:auto;" id="ONE">
+          <h1 class="text-uppercase" style="letter-spacing:1px; font-weight: 300;">Title Here</h1>
+          <hr class="mt-0">
+          <!-- optional focal image -->
+          <img src="IMG_URL"
+          class="float-right ml-3 mb-1 hidden-sm-down" style="max-height: 425px;">
+ 
+          <!------ quote here ------------------>
+         <p class="text-center mb-4" style="letter-spacing:2px; font-weight: 300;"><i>
+           "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          </i></p>
+ 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis. Aliquam erat volutpat. Nulla nulla augue, vehicula id volutpat nec, auctor et ipsum. Phasellus pretium non libero eu ultricies. Proin et est vitae metus interdum ullamcorper vel sit amet augue. Integer et diam eu massa faucibus molestie non vitae metus. Donec cursus lectus eros, in vestibulum sapien porta et. </p>
+ 
+          <p>Aliquam erat volutpat. Nulla nulla augue, vehicula id volutpat nec, auctor et ipsum. Phasellus pretium non libero eu ultricies. Proin et est vitae metus interdum ullamcorper vel sit amet augue. Integer et diam eu massa faucibus molestie non vitae metus. Donec cursus lectus eros, in vestibulum sapien porta et. Aliquam ac est lorem. Etiam pulvinar laoreet augue, et faucibus ligula ornare quis. Pellentesque sed leo tincidunt, consectetur dui in, tincidunt nunc.</p>
+ 
+        </div>
+        <!--------------------------- SECTION TWO -- DETAILS ------------------------------------>
+        <div class="tab-pane px-4 pt-4 pb-1" style="height:540px; overflow:auto;" id="TWO">
+          <h1 class="text-uppercase" style="letter-spacing:1px; font-weight: 300;">Details</h1>
+          <hr class="mt-0">
+ 
+           <!------ trivia facs here ---------------------->
+           <div class="row">
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">d.o.b.</span>
+                 <span>content</span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">sign</span>
+                 <span>content</span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">S.O.</span>
+                 <span>sexual orientation</span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">demeanor</span>
+                 <span>content</span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">element</span>
+                 <span>content</span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">alignment</span>
+                 <span>content</span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">charisma</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                 </span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">kindness</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                  </span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">patience</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                 </span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">courage</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                 </span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">intellect</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                 </span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">integrity</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                 </span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">humour</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                 </span>
+               </div>
+               <hr class="my-2">
+             </div>
+ 
+             <div class="col-md-6 mb-1">
+               <div class="d-flex justify-content-between">
+                 <span class="text-muted text-uppercase" style="letter-spacing:1px;">luck</span>
+                 <span>
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fas fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                   <i class="fal fa-square fa-fw" />
+                 </span>
+               </div>
+               <hr class="my-2">
+             </div>
+           </div>
+ 
+            <div class="row">
+              <!---------------------- LIKES & DISLIKES ------------------------------------------------->
+              <div class="col-sm-6">
+                  <p class="text-muted text-uppercase" style="letter-spacing:1px;">Likes</p>
+                  <ul class="mb-0">
+                      <li class="mb-2">content</li>
+                      <li class="mb-2">content</li>
+                      <li class="mb-2">content</li>
+                      <li class="mb-2">content</li>
+                  </ul>
+              </div>
+ 
+              <div class="col-sm-6">
+                  <p class="text-muted text-uppercase" style="letter-spacing:1px;">Dislikes</p>
+                  <ul class="mb-0">
+                      <li class="mb-2">content</li>
+                      <li class="mb-2">content</li>
+                      <li class="mb-2">content</li>
+                      <li class="mb-2">content</li>
+                  </ul>
+              </div>
+            </div>
+ 
+        </div>
+        <!--------------------------- SECTION THREE -- PERSONALITY ------------------------------------>
+        <div class="tab-pane px-4 pt-4 pb-1" style="height:540px; overflow:auto;" id="THREE">
+          <h1 class="text-uppercase" style="letter-spacing:1px; font-weight: 300;">Personality</h1>
+          <hr class="mt-0">
+          <div class="row no-gutters">
+            <div class="col-lg-6 pr-md-2 mb-3">
+              <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Trait Name</p>
+              <p>List a personality trait & give a small description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis.</p>
+            </div>
+            <div class="col-lg-6 pl-md-2 mb-3">
+              <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Trait Name</p>
+              <p>List a personality trait & give a small description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis.</p>
+            </div>
+            <div class="col-lg-6 pr-md-2 mb-3">
+              <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Trait Name</p>
+              <p>List a personality trait & give a small description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis.</p>
+            </div>
+            <div class="col-lg-6 pl-md-2 mb-3">
+              <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Trait Name</p>
+              <p>List a personality trait & give a small description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis.</p>
+            </div>
+            <div class="col-lg-6 pr-md-2 mb-3">
+              <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Trait Name</p>
+              <p>List a personality trait & give a small description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis.</p>
+            </div>
+            <div class="col-lg-6 pl-md-2 mb-3">
+              <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Trait Name</p>
+              <p>List a personality trait & give a small description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis.</p>
+            </div>
+          </div>
+ 
+ 
+        </div>
+        <!--------------------------- SECTION FOUR -- MOODBOARD ------------------------------------>
+        <div class="tab-pane px-4 pt-4 pb-1" style="height:540px; overflow:auto;" id="FOUR">
+          <h1 class="text-uppercase" style="font-weight:300; letter-spacing:1px;">Aesthetic</h1>
+          <hr class="mt-0 ">
+          <!-- moodboard -- can use any size images, just make sure they are all the same size -->
+          <div class="row no-gutters px-lg-5">
+            <div class="col-md-4 col-6 text-center px-1 mb-2">
+              <img src="IMG_URL">
+            </div>
+            <div class="col-md-4 col-6 text-center px-1 mb-2">
+              <img src="IMG_URL">
+            </div>
+            <div class="col-md-4 col-6 text-center px-1 mb-2">
+              <img src="IMG_URL">
+            </div>
+            <div class="col-md-4 col-6 text-center px-1 mb-md-0 mb-2">
+              <img src="IMG_URL">
+            </div>
+            <div class="col-md-4 col-6 text-center px-1 mb-md-0 mb-2">
+              <img src="IMG_URL">
+            </div>
+            <div class="col-md-4 col-6 text-center px-1 mb-md-0 mb-2">
+              <img src="IMG_URL">
+            </div>
+          </div>
+        </div>
+ 
+        <!--------------------------- SECTION FIVE -- STORY ------------------------------------>
+        <div class="tab-pane px-4 pt-4 pb-1" style="height:540px; overflow:auto;" id="FIVE">
+          <h1 class="text-uppercase" style="font-weight:300; letter-spacing:1px;">Summary</h1>
+          <hr class="mt-0 ">
+          <!-- optional focal image -------------->
+          <img src="IMG_URL"
+          class="float-right ml-3 mb-1 hidden-sm-down" style="max-height: 350px;">
+ 
+          <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Subheader</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis. Aliquam erat volutpat. Nulla nulla augue, vehicula id volutpat nec, auctor et ipsum. Phasellus pretium non libero eu ultricies. Proin et est vitae metus interdum ullamcorper vel sit amet augue. Integer et diam eu massa faucibus molestie non vitae metus. Donec cursus lectus eros, in vestibulum sapien porta et. Aliquam ac est lorem. Etiam pulvinar laoreet augue, et faucibus ligula ornare quis. Pellentesque sed leo tincidunt, consectetur dui in, tincidunt nunc.</p>
+ 
+          <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Subheader</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis. Aliquam erat volutpat. Nulla nulla augue, vehicula id volutpat nec, auctor et ipsum. Phasellus pretium non libero eu ultricies. Proin et est vitae metus interdum ullamcorper vel sit amet augue. Integer et diam eu massa faucibus molestie non vitae metus. Donec cursus lectus eros, in vestibulum sapien porta et. Aliquam ac est lorem. Etiam pulvinar laoreet augue, et faucibus ligula ornare quis. Pellentesque sed leo tincidunt, consectetur dui in, tincidunt nunc.</p>
+ 
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis. Aliquam erat volutpat. Nulla nulla augue, vehicula id volutpat nec, auctor et ipsum. Phasellus pretium non libero eu ultricies. Proin et est vitae metus interdum ullamcorper vel sit amet augue. Integer et diam eu massa faucibus molestie non vitae metus. Donec cursus lectus eros, in vestibulum sapien porta et. Aliquam ac est lorem. Etiam pulvinar laoreet augue, et faucibus ligula ornare quis. Pellentesque sed leo tincidunt, consectetur dui in, tincidunt nunc.</p>
+ 
+          <p class="text-muted text-uppercase mb-1" style="letter-spacing:1px;">Subheader</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis. Aliquam erat volutpat. Nulla nulla augue, vehicula id volutpat nec, auctor et ipsum. Phasellus pretium non libero eu ultricies. Proin et est vitae metus interdum ullamcorper vel sit amet augue. Integer et diam eu massa faucibus molestie non vitae metus. Donec cursus lectus eros, in vestibulum sapien porta et. Aliquam ac est lorem. Etiam pulvinar laoreet augue, et faucibus ligula ornare quis. Pellentesque sed leo tincidunt, consectetur dui in, tincidunt nunc.</p>
+        </div>
+ 
+        <!--------------------------- SECTION SIX -- LINKS ------------------------------------>
+        <div class="tab-pane card-block pb-1" style="height:540px; overflow:auto;" id="SIX">
+          <div class="row">
+          <!--------------------------- CHARACTER LINK -------------------------------------->
+          <div class="col-12 mb-3">
+              <img src="IMG_URL" style="max-height:150px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
+ 
+              <h2 class="my-2 text-sm-left text-center" style="font-weight:300;">
+              <a href="CHAR_LINK">Character</a></h2>
+ 
+              <p class="mb-2">[ <i style="letter-spacing:1px;">relationship</i> ]
+                  <span class="pull-right">
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" /></span></p>
+              <hr class="mt-0 mb-2 hidden-md-up">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin. In feugiat posuere nulla, eget lobortis ante. </p>
+          </div>
+ 
+          <!--------------------------- CHARACTER LINK -------------------------------------->
+          <div class="col-12 mb-3">
+              <img src="IMG_URL" style="max-height:150px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
+ 
+              <h2 class="my-2 text-sm-left text-center" style="font-weight:300;">
+              <a href="CHAR_LINK">Character</a></h2>
+ 
+              <p class="mb-2">[ <i style="letter-spacing:1px;">relationship</i> ]
+                  <span class="pull-right">
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" /></span></p>
+              <hr class="mt-0 mb-2 hidden-md-up">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin. In feugiat posuere nulla, eget lobortis ante. </p>
+          </div>
+ 
+          <!--------------------------- CHARACTER LINK -------------------------------------->
+          <div class="col-12 mb-3">
+              <img src="IMG_URL" style="max-height:150px;" class="rounded float-sm-right ml-sm-2 d-block mx-auto" />
+ 
+              <h2 class="my-2 text-sm-left text-center" style="font-weight:300;">
+              <a href="CHAR_LINK">Character</a></h2>
+ 
+              <p class="mb-2">[ <i style="letter-spacing:1px;">relationship</i> ]
+                  <span class="pull-right">
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" />
+                <i class="fas fa-heart fa-fw" /></span></p>
+              <hr class="mt-0 mb-2 hidden-md-up">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet massa blandit, fermentum enim a, scelerisque velit. Integer interdum urna ac dui sollicitudin sollicitudin. In feugiat posuere nulla, eget lobortis ante. </p>
+          </div>
+ 
+          </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<p class="small text-right">HTML by  @eggy</p>
+</div>
+<div class="row">
+    <div class="col-3 p-0">
+        <div class="card border-0"></div>
+    </div>
