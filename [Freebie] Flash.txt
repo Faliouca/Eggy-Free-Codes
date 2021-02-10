@@ -1,0 +1,113 @@
+<!-- THIS LAYOUT HAS A CUSTOM FOCAL COLOR #d8607b -----
+---- use find & replace to quickly update hex code ---->
+ 
+<div class="container-fluid px-0 py-4" style="max-width: 1160px;"><div class="card d-block bg-faded p-3 shadow mb-2" style="border-radius: 1em;"><div class="row no-gutters justify-content-center">
+  <div class="col-12 mb-3">
+      <!-- TOP BOX -- you can change the font awesome icon ------------------------------------------------>
+      <div class="card p-3" style="border-radius: 1em;"><div class="d-flex align-items-center justify-content-md-between justify-content-center text-center">
+        <i class="fas fa-stars fa-fw fa-2x mr-2" style="color: #d8607b;" />
+        <span style="font-size: 1.5em; letter-spacing: 1px;">
+          <!-- TITLE or tagline here - -------------------------------------------------------------------->
+          Title Here
+        </span>
+        <i class="fas fa-stars fa-fw fa-2x ml-2" style="color: #d8607b;" />
+      </div></div>  
+  </div>
+ 
+  <div class="col-lg col-12 order-lg-3 mb-lg-0 mb-3" style="max-width: 365px;"><div class="card d-block modal-open h-100" style="border-radius: 1em;">
+    <!-- FOCAL IMAGE -- image will crop/resize with screen -- focus in top center of image --------------------------------->
+    <div style="background-image:url('IMG_URL'); 
+    background-size:cover; background-position: top center; min-height: 400px;" class="h-100"></div></div>
+  </div>
+  <div class="col-md-1 order-md-2 px-lg-3 mb-md-0 mb-3">
+    <div class="h-100 d-flex flex-md-column justify-content-between" style="border-radius: 1em; overflow:hidden;">
+      <!-- PALETTE -- change background color hex code to change block color ------------------------------------------------>
+      <div style="background: #000; min-height: 60px; border-radius: 1em;" class="card mx-md-0 mx-1 col-md-auto col"></div>
+      <div style="background: #222; min-height: 60px; border-radius: 1em;" class="card mx-md-0 mx-1 col-md-auto col"></div>
+      <div style="background: #444; min-height: 60px; border-radius: 1em;" class="card mx-md-0 mx-1 col-md-auto col"></div>
+      <div style="background: #666; min-height: 60px; border-radius: 1em;" class="card mx-md-0 mx-1 col-md-auto col"></div>
+      <div style="background: #999; min-height: 60px; border-radius: 1em;" class="card mx-md-0 mx-1 col-md-auto col"></div>
+      <div style="background: #fff; min-height: 60px; border-radius: 1em;" class="card mx-md-0 mx-1 col-md-auto col"></div>
+    </div>
+  </div>
+  <div class="col-lg col-md-11 pr-lg-0 pr-md-2 order-lg-1">
+    <div class="card modal-open mb-3" style="border-radius: 1em;">
+    <div class="row no-gutters justify-content-center">
+      <div class="col-md-auto px-md-0 px-2">
+        <!-- STATS -- you can change the font awesome icons if you want -- note the width of this section is determined by the content
+        --- so don't write too much or it'll be too wide -- just a word or two per stat --------------------------------------------->
+        <div class="d-flex h-100 pt-md-0 pt-2 mb-md-0"><div class="w-100 my-auto">
+          <div class="px-3 py-2">
+            <i class="far fa-id-card fa-fw mr-2" style="color: #d8607b;" />
+            name here
+          </div>
+ 
+          <div class="px-3 py-2">
+            <i class="far fa-venus-mars fa-fw mr-2" style="color: #d8607b;" />
+            gender here
+          </div>
+ 
+          <div class="px-3 py-2">
+            <i class="far fa-birthday-cake fa-fw mr-2" style="color: #d8607b;" />
+            age here
+          </div>
+ 
+          <div class="px-3 py-2">
+            <i class="far fa-ruler fa-fw mr-2" style="color: #d8607b;" />
+            height here
+          </div>
+ 
+          <div class="px-3 py-2">
+            <i class="far fa-dna fa-fw mr-2" style="color: #d8607b;" />
+            race/species here
+          </div>
+ 
+          <div class="px-3 py-2">
+            <i class="far fa-cog fa-fw mr-2" style="color: #d8607b;" />
+            what they do
+          </div>
+ 
+          <div class="px-3 py-2">
+            <i class="far fa-user-circle fa-fw mr-2" style="color: #dd8685;" />
+            uppity
+          </div>
+          <hr class="my-0 hidden-md-up">
+        </div></div>
+      </div>
+      <div class="col-md-auto py-3 hidden-sm-down">
+        <div class="card h-100 border-right-0 border-top-0 border-bottom-0" style="width: 1px;"></div>
+      </div>
+      <div class="col-md">
+        <!-- DESCRIPTION -- this box will scroll when filled ------------------------------------------------>
+        <div class="d-md-flex d-block w-100 px-3 pt-md-3 pt-2 pb-md-3 pb-1 text-center" style="height: 280px; overflow:auto; font-size: 10pt; letter-spacing: .25px;"><div class="w-100 my-auto">
+          <p>The width of the stats is determnied by the content, so keep it concise (or use line breaks). This box will scroll when filled. This template is meant to be small/not have a ton of written content.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ex quis enim condimentum, vulputate elementum lacus viverra. Donec non dui id augue pellentesque aliquam et eget felis. Aliquam erat volutpat. Nulla nulla augue, vehicula id volutpat nec, auctor et ipsum. Phasellus pretium non libero eu ultricies. Proin et est vitae metus interdum ullamcorper vel sit amet augue. Integer et diam eu massa faucibus molestie non vitae metus. Donec cursus lectus eros, in vestibulum sapien porta et. Aliquam ac est lorem. Integer et diam eu massa faucibus molestie non vitae metus.</p>
+ 
+        </div></div>
+      </div>
+      </div>
+      </div>
+      <div class="card modal-open" style="border-radius: 1em;">
+        <div class="row no-gutters modal-open">
+          <!-- MOODBOARD -- image will scrale/crop with screen -- focus in the CENTER of the image ------->
+          <div class="col-md-3 col-6">
+              <div style="background-image: url(IMG_URL); 
+              background-size: cover; background-position:center; height: 175px;"></div>
+          </div>
+          <div class="col-md-3 col-6">
+              <div style="background-image: url(IMG_URL); 
+              background-size: cover; background-position:center; height: 175px;"></div>
+          </div>
+          <div class="col-md-3 col-6">
+              <div style="background-image: url(IMG_URL); 
+              background-size: cover; background-position:center; height: 175px;"></div>
+          </div>
+          <div class="col-md-3 col-6">
+              <div style="background-image: url(IMG_URL); 
+              background-size: cover; background-position:center; height: 175px;"></div>
+          </div>
+        </div>
+        </div>
+  </div>
+</div></div>
+<p class="text-right text-muted small">HTML by @Eggy</p></div>
